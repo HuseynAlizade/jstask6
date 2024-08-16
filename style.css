@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#btn{
+    padding: 20px;
+    border: 2px solid blue;
+    border-radius: 15px;
+    background-color: red;
+}
+
+#btn:hover{
+    background-color: rgb(167, 2, 2);
+    color: white;
+    transition: all 0.2s;
+}
